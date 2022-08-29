@@ -2,5 +2,5 @@
 ### Link Netlify
 https://quotesandcolorsjeanticona.netlify.app/
 
-###Link Repo
+### Link Repo
 https://github.com/jeancarlos324/quotesandcolors
