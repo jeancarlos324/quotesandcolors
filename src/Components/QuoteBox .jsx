@@ -6,7 +6,7 @@ import Quote from "./content/Quote";
 const QuoteBox = ({author,quoteText,color,changeValues,...otherProps}) => {
 
   return (
-    <div className='flex flex-col rounded-xl p-8 w-1/3 items-end gap-5 m-0  border-2 bg-gray-200 shadow-xl'>
+    <div className='flex flex-col rounded-xl p-8 md:w-1/3 items-end gap-5 md: m-0  border-2 bg-gray-200 shadow-xl sm:w-full sm:mx-5 '>
       <div className="flex gap-5 w-full">
         <ReactIcon fill={color}/>
         <Quote text={quoteText} style={color} />
